@@ -43,7 +43,7 @@ function App() {
           <h1>Astronomy Picture of the Day</h1>
           <div>
             <PrevNextButton nav='prev' onClick={() => { handleClick(-1) }} />
-            <DatePicker dateFormat='yyyy-MM-dd' selected={selectedDate} onChange={newDate => setDate(dayjs(newDate).format('YYYY-MM-DD'))}></DatePicker>
+            <DatePicker dateFormat='yyyy-MM-dd' selected={selectedDate} value = {date} onChange={newDate => setDate(dayjs(newDate).format('YYYY-MM-DD'))}></DatePicker>
             <PrevNextButton nav='next' onClick={() => { handleClick(1) }} disabled={isDisabled} />
           </div>
           {console.log(date)}
