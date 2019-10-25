@@ -4,6 +4,7 @@ import styled from '@emotion/styled'
 
 const Image = styled.img`
   width: 100vh;
+  margin-top: 50px;
   height: 50vh;
   object-fit: cover;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -29,11 +30,13 @@ const ImageContainer = styled.div`
   h1  {
     text-align: center;
     font-family: sans-serif;
+    font-size: 1.5rem;
     border-bottom: 5px #F24C6A solid;
     color: #3F3D56;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
 `
 

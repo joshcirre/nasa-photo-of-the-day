@@ -5,11 +5,13 @@ const Header = styled.div`
   display: flex;
   width: 100%;
   background-color: #3AC191;
-  padding: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
   align-items: center;
   justify-content: center;
   height: 200px;
   flex-direction: column;
+  margin: 0 auto;
   h1{
     color: #3F3D56;
     font-family: 'Montserrat', sans-serif;
