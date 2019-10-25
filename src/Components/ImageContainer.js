@@ -38,6 +38,34 @@ const ImageContainer = styled.div`
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  h1 button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin-left: 40px;
+    text-decoration: none;
+    background: #F24C6A;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+    transform 150ms ease;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    &:hover {
+        background: #C32A45;
+    }
+    &:active {
+        transform: scale(0.95);
+    }
+  }
+      h1 button a {
+        text-decoration: none;
+        color: #FFF;
+    }
 `
 
 export default function () {
@@ -47,7 +75,7 @@ export default function () {
       {(pictureList) && pictureList.map((picture, index) => {
         return (picture.date === date) && (
           <div key={index}>
-            <h1>{`${picture.title} - ${picture.date}`}</h1>
+            <h1>{`${picture.title} - ${picture.date}`} <button><a href ={picture.hdurl} target="_blank">Download HD Image</a></button></h1>
             {(picture.media_type === 'image') && <Image src={picture.hdurl} alt={`${picture.title}`} />}
             {(picture.media_type === 'video') && <Iframe src={picture.url} title={`${picture.title}`} />}
           </div>
