@@ -7,8 +7,8 @@ const PrevNextButton = styled.button`
     padding: 1rem 2rem;
     margin: 0;
     text-decoration: none;
-    background: #0069ed;
-    color: #ffffff;
+    background: #F24C6A;
+    color: #FFF;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     cursor: pointer;
@@ -17,15 +17,11 @@ const PrevNextButton = styled.button`
     transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
-    &:hover, &:focus {
-        background: #0053ba;
-    }
-    &:focus {
-        outline: 1px solid #fff;
-        outline-offset: -4px;
+    &:hover {
+        background: #C32A45;
     }
     &:active {
-        transform: scale(0.99);
+        transform: scale(0.95);
     }
 `
 

@@ -8,9 +8,10 @@ const Header = styled.div`
   padding: 1rem;
   align-items: center;
   justify-content: center;
+  height: 200px;
   flex-direction: column;
   h1{
-    color: #393939;
+    color: #3F3D56;
     font-family: 'Montserrat', sans-serif;
   }
 `
