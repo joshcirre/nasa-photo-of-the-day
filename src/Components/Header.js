@@ -4,14 +4,14 @@ import styled from '@emotion/styled'
 const Header = styled.div`
   display: flex;
   width: 100%;
-  background-color: dodgerblue;
+  background-color: #3AC191;
   padding: 1rem;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   h1{
-    color: white;
-    font-family: sans-serif;
+    color: #393939;
+    font-family: 'Montserrat', sans-serif;
   }
 `
 

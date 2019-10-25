@@ -9,7 +9,7 @@ const PrevNextButton = styled.button`
     text-decoration: none;
     background: #0069ed;
     color: #ffffff;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     cursor: pointer;
     text-align: center;

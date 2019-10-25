@@ -15,9 +15,12 @@ const Iframe = styled.iframe`
 const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
-  h1{
+  h1  {
     text-align: center;
     font-family: sans-serif;
+    border-bottom: 1px red solid;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
   }
 `
 
